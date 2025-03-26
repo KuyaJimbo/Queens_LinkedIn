@@ -163,11 +163,3 @@ Orchestrates the entire solving process.
 3. Commit changes
 4. Push to the branch
 5. Create a pull request
-
-## License
-
-[Insert Appropriate License]
-
-## Contact
-
-[Your Name/Contact Information]
