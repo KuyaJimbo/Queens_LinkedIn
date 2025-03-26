@@ -71,7 +71,6 @@ pip install discord.py opencv-python numpy python-dotenv
 
 - Time Complexity: O(n³ * log(n))
 - Reduces solution search space dramatically
-- Handles grids up to 7x7 efficiently
 
 ## Project Structure
 
