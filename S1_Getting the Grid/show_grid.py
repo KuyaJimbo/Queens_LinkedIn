@@ -17,12 +17,9 @@ def show_grid(image):
       print(f"Image Width: {image_width} pixels")
       print(f"Image Height: {image_height} pixels")
 
-      # Image from 30 pixels from the top, to the bottom
-      # Crop the image from 30 pixels from the top to the bottom
-      cropped_image = image[150:515, 15:385]
+      cropped_image = image[150:518, 15:385]
 
       # Display the cropped image
-      print("Cropped Image (from 30 pixels from top to bottom):")
       cv2_imshow(cropped_image)
 
 # Load the images
@@ -31,4 +28,3 @@ image_paths = ["queen1.png","queen2.png"]
 for path in image_paths:
   image = cv2.imread(path)
   show_grid(image)
-  
